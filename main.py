@@ -19,7 +19,6 @@ while i < x:
             offset=i,
             count=floor(x % 100)
         )
-        print(2)
         for s in range(floor(x % 100)):
             n.append(a['items'][s]['text'])
     else:
@@ -28,7 +27,6 @@ while i < x:
             offset=i,
             count=100
         )
-        print(1)
         for s in range(100):
             n.append(a['items'][s]['text'])
     i += 100
